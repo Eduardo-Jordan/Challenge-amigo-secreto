@@ -1,0 +1,11 @@
+sorteo-nombres/
+├── README.md                       # Documentación del proyecto (instrucciones y descripción)
+├── structure.txt                   # Estructura (la creacion de la estructura)
+│
+├── index.html                      # Archivo principal HTML (estructura de la página)
+├── style.css                       # Hoja de estilos CSS (diseño visual)
+├── app.js                          # Lógica del sorteo en JavaScript
+│
+└── assets/                         # (Opcional) Carpeta para recursos adicionales
+    ├── amigo-secreto.png/          #   - Imágenes/iconos usados en el proyecto
+    └── play_circle_outline.png/    #   - Fuentes personalizadas (si las hay)
