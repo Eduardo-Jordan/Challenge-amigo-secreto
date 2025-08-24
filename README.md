@@ -29,6 +29,7 @@ Si no se ingresa un número válido (mayor o igual a 1), el juego muestra una al
 Validación de entrada:
 
 No permite nombres vacíos.
+![No permite nombres vacíos](https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-2.png)
 
 Cada nombre se guarda en una lista 
 
