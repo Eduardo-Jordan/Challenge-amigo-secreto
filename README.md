@@ -7,6 +7,8 @@ Juego de Sorteo de Nombres
 🎯 Descripción
 Este es un juego interactivo que permite realizar sorteos de nombres de manera justa y configurable. Los usuarios pueden:
 
+![Vista previa del sorteo](https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-1.png)
+
 Agregar participantes a una lista.
 
 Establecer un límite de repeticiones para evitar que un mismo nombre salga demasiadas veces.
