@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- Define el tipo de documento y el idioma principal como español -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!-- Permite el uso de caracteres especiales como tildes y ñ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que el diseño sea responsive -->
+
+    <!-- Enlace al archivo de estilos CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Optimiza la carga de fuentes desde Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Importa las fuentes Inter y Merriweather con varios pesos -->
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
-    <title>Amigo Secreto</title>
+
+    <title>Amigo Secreto</title> <!-- Título que aparece en la pestaña del navegador -->
 </head>
 
 <body>
     <main class="main-content">
+        <!-- Contenedor principal del contenido -->
+
+        <!-- Encabezado con título e imagen -->
         <header class="header-banner">
-            <h1 class="main-title">Amigo Secreto</h1>
-            <img src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto">
+            <h1 class="main-title">Amigo Secreto</h1> <!-- Título principal del sitio -->
+            <img src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto"> <!-- Imagen decorativa -->
         </header>
 
+        <!-- Sección para ingresar nombres -->
         <section class="input-section">
-            <h2 class="section-title">Digite el nombre de sus amigos</h2>
+            <h2 class="section-title">Digite el nombre de sus amigos</h2> <!-- Subtítulo de la sección -->
+
+            <!-- Contenedor del input y botón de añadir -->
             <div class="input-wrapper">
                 <input type="text" id="txtAmigo" class="input-name" placeholder="Escribe un nombre">
+                <!-- Campo de texto para ingresar nombres -->
                 <button class="button-add" onclick="agregarAmigo()">Añadir</button>
+                <!-- Botón que llama a la función agregarAmigo() -->
             </div>
 
+            <!-- Lista donde se mostrarán los nombres añadidos -->
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+
+            <!-- Lista donde se mostrarán los resultados del sorteo -->
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
+            <!-- Botón para ejecutar el sorteo -->
             <div class="button-container">
                 <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
                     <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
+                    <!-- Ícono decorativo del botón -->
                     Sortear amigo
+                    <!-- Texto del botón -->
                 </button>
             </div>
         </section>
     </main>
 
+    <!-- Enlace al archivo JavaScript que contiene la lógica de las funciones -->
     <script src="app.js" defer></script>
+    <!-- El atributo defer asegura que el script se ejecute después de cargar el HTML -->
 </body>
 
 </html>
