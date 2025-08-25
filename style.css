@@ -1,50 +1,71 @@
+/* 🎨 Variables de color definidas en el root para facilitar la personalización */
 :root {
     --color-primary: #4B69FD;
+    /* Azul principal: fondo general */
     --color-secondary: #FFF9EB;
+    /* Amarillo claro: fondo de la sección de entrada */
     --color-tertiary: #C4C4C4;
+    /* Gris claro: fondo del botón "Añadir" */
     --color-button: #fe652b;
+    /* Naranja: fondo del botón "Sortear" */
     --color-button-hover: #e55720;
+    /* Naranja oscuro: hover del botón "Sortear" */
     --color-text: #444444;
+    /* Gris oscuro: texto general */
     --color-white: #FFFFFF;
+    /* Blanco: texto sobre fondo azul */
 }
 
-/* Estilos generales */
+/* 🧱 Reset general para evitar estilos por defecto del navegador */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* Incluye borde y padding en el cálculo del tamaño */
 }
 
+/* 🖼️ Estilo base del body */
 body {
     height: 100vh;
+    /* Ocupa toda la altura de la ventana */
     background-color: var(--color-primary);
+    /* Fondo azul */
     display: flex;
     justify-content: center;
+    /* Centra horizontalmente */
     align-items: center;
+    /* Centra verticalmente */
 }
 
+/* 📦 Contenedor principal */
 .main-content {
     display: flex;
     flex-direction: column;
+    /* Apila elementos verticalmente */
     height: 100%;
     width: 100%;
 }
 
-/* Banner */
+/* 🏷️ Banner superior con título e imagen */
 .header-banner {
     flex: 40%;
+    /* Ocupa el 40% del alto disponible */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+    /* Espacio superior */
 }
 
-/* Sección de entrada */
+/* 🧑‍🤝‍🧑 Sección de entrada de nombres */
 .input-section {
     flex: 60%;
+    /* Ocupa el 60% del alto disponible */
     background-color: var(--color-secondary);
+    /* Fondo amarillo claro */
     border: 1px solid #000;
     border-radius: 64px 64px 0 0;
+    /* Bordes redondeados arriba */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,25 +73,28 @@ body {
     width: 100%;
 }
 
-/* Títulos */
+/* 📝 Título principal */
 .main-title {
     font-size: 48px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
+    /* Texto blanco sobre fondo azul */
 }
 
+/* 📝 Título de sección */
 .section-title {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
+    /* Azul para destacar sobre fondo claro */
     margin: 10px 0;
     text-align: center;
 }
 
-/* Contenedores de entrada y botón */
+/* 📥 Contenedor del input y botón */
 .input-wrapper {
     display: flex;
     justify-content: center;
@@ -79,20 +103,23 @@ body {
     margin-top: 20px;
 }
 
+/* ✏️ Campo de entrada de nombre */
 .input-name {
     width: 100%;
     padding: 10px;
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
+    /* Redondeado solo a la izquierda */
     font-size: 16px;
 }
 
+/* 📦 Contenedor del botón de sorteo */
 .button-container {
     width: 300px;
     justify-content: center;
 }
 
-/* Estilos de entrada de texto */
+/* 🖋️ Estilo alternativo para inputs (no usado en tu HTML actual) */
 .input-title {
     flex: 1;
     padding: 10px 15px;
@@ -102,9 +129,10 @@ body {
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Sombra para profundidad */
 }
 
-/* Estilos de botón */
+/* 🧷 Estilo base para todos los botones */
 button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
@@ -115,48 +143,63 @@ button {
     cursor: pointer;
 }
 
+/* ➕ Botón "Añadir" */
 .button-add {
     background-color: var(--color-tertiary);
+    /* Gris claro */
     color: var(--color-text);
+    /* Texto gris oscuro */
     border-radius: 0 25px 25px 0;
+    /* Redondeado solo a la derecha */
 }
 
+/* 🔁 Hover del botón "Añadir" */
 .button-add:hover {
     background-color: #a1a1a1;
+    /* Gris más oscuro al pasar el mouse */
 }
 
-/* Listas */
+/* 📋 Estilo de listas (nombres y resultados) */
 ul {
     list-style-type: none;
+    /* Sin viñetas */
     color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
 }
 
+/* 🎉 Lista de resultados del sorteo */
 .result-list {
     margin-top: 15px;
     color: #05DF05;
+    /* Verde brillante para destacar */
     font-size: 22px;
     font-weight: bold;
     text-align: center;
 }
 
-/* Botón de sortear título */
+/* 🎲 Botón "Sortear amigo" */
 .button-draw {
     display: flex;
     align-items: center;
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
+    /* Texto blanco */
     background-color: var(--color-button);
+    /* Naranja */
     font-size: 16px;
 }
 
+/* 🖼️ Ícono dentro del botón "Sortear" */
 .button-draw img {
     margin-right: 40px;
+    /* Espacio entre ícono y texto */
 }
 
+/* 🔁 Hover del botón "Sortear" */
 .button-draw:hover {
     background-color: var(--color-button-hover);
+    /* Naranja más oscuro */
 }
