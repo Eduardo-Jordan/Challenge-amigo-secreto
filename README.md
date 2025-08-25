@@ -1,6 +1,6 @@
 # Desafío Amigo Secreto
 
-# Juego de Sorteo de Nombres
+## Juego de Sorteo de Nombres
 
 🎯 **Descripción**
 
@@ -42,8 +42,8 @@ Los usuarios pueden:
 
 # 🚀 Cómo Usarlo
 
-1. Escribe un nombre y haz clic en "➕ Añadir" para agregarlo a la lista.
-2. Presiona "🎲 Sortear" para elegir un ganador al azar.
+1. Escribe un nombre y haz clic en ➕"Añadir" para agregarlo a la lista.
+2. Presiona 🎲"Sortear Amigo" para elegir un ganador al azar.
 
 # 📌 Notas Importantes
 **Justicia en el sorteo**:
