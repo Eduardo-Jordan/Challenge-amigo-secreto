@@ -37,12 +37,14 @@ Los usuarios pueden:
 ![Muestra el nombre ganador](https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-4.png)
 
  Si todos los nombres ya alcanzaron el máximo, muestra:
- "🎉 Felicidades Fin del Juego 🎉".
+ 🎉"Todos los amigos ya fueron sorteados. El juego se reiniciara.".🎉
+ ![Todos los amigos ya fueron sorteados. El juego se reiniciara.](https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-5.png)
 
 ### 3. Reiniciar Juego
 - Limpia toda la información:
   Vacía la lista de nombres.
   Borra los campos de entrada.
+![ Limpia toda la información](https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-1.png)
 
 ## 🛠️ Tecnologías Usadas
 - [HTML5](https://github.com/Eduardo-Jordan/Challenge-amigo-secreto/blob/main/index.html) → Estructura de la página.
