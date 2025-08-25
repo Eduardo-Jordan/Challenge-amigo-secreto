@@ -64,7 +64,6 @@ Los usuarios pueden:
 
  **Validaciones**:
  
- No permite números.
  No permite nombres vacíos.
  No permite que se repitan los nombres.
  
