@@ -36,7 +36,7 @@ Los usuarios pueden:
   Borra los campos de entrada.
 
 ## 🛠️ Tecnologías Usadas
-- [HTML5](https://developer.mozilla.org/es/docs/Web/Guide/HTML/HTML5) → Estructura de la página.
+- [HTML5](https://github.com/Eduardo-Jordan/Challenge-amigo-secreto/blob/main/index.html) → Estructura de la página.
 - [CSS3](https://developer.mozilla.org/es/docs/Web/CSS/CSS3) → Estilos y diseño responsivo.
 - [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) → Lógica del sorteo y manipulación del DOM.
 
