@@ -24,6 +24,7 @@ Los usuarios pueden:
  No permite nombres vacíos.
  Cada nombre se guarda en una lista.
 - Visualización en lista: Muestra cada nombre.
+![No permite nombres vacíos](https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-2.png)
 
 # 2. Realizar Sorteo
 
