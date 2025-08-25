@@ -2,7 +2,7 @@
 
 ## Juego de Sorteo de Nombres
 
-(https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-1.png)
+https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-1.png
 
 🎯 **Descripción**
 
