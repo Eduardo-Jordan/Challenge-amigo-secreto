@@ -74,6 +74,23 @@ Los usuarios pueden:
 
 ![Vista previa del sorteo](https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-1.png)
 
+🧩 Instalación
+No necesitas instalar nada para comenzar a jugar. 
+Simplemente accede al siguiente enlace desde cualquier navegador web:
+
+🔗 Ir al juego: 
+GitHub
+https://eduardo-jordan.github.io/Challenge-amigo-secreto/
+Vercel
+https://challenge-amigo-secreto-m7t02slta-eduardo-jordan-s-projects.vercel.app/
+## 🔗 Accesos Directos
+
+[🚀 Ir al proyecto en GitHub](https://eduardo-jordan.github.io/Challenge-amigo-secreto/)  
+[🌐 Ver en Vercel](https://challenge-amigo-secreto-m7t02slta-eduardo-jordan-s-projects.vercel.app/)
+
+
+¡Y listo! Puedes empezar a agregar nombres y realizar sorteos de inmediato.
+
 # 🤝 Contribuir
 ¡Claro que sí! Si deseas contribuir a este proyecto, puedes hacerlo mediante:
 
