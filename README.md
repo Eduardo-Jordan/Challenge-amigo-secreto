@@ -77,7 +77,8 @@ Los usuarios pueden:
 
 # 🤝 Contribuir
 ¡Claro que sí! Si deseas contribuir a este proyecto, puedes hacerlo mediante:
-- GitHub
+
+- [GitHub](https://github.com/Eduardo-Jordan).
 - Contactándome directamente en:
 - [LinkedIn](https://www.linkedin.com/in/eduardo-jordan/).
 
