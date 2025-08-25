@@ -1,119 +1,83 @@
-README
+# Desafío Amigo Secreto
 
-Bienvenidos Desafío-amigo-secreto
+# Juego de Sorteo de Nombres
 
-Juego de Sorteo de Nombres 
+🎯 **Descripción**
 
-🎯 Descripción
-Este es un juego interactivo que permite realizar sorteos de nombres de manera justa y configurable. Los usuarios pueden:
+Este es un juego interactivo que permite realizar sorteos de nombres de manera justa y configurable.
+
+Los usuarios pueden:
+
+- Agregar participantes a una lista.
+- Realizar sorteos aleatorios respetando el límite configurado.
+- Reiniciar el juego cuando todos los nombres hayan pasado.
+
+# ⚙️ Funcionalidades
+
+# 1. Agregar Nombres
+
+- Validación de entrada:
+ No permite nombres vacíos.
+ Cada nombre se guarda en una lista.
+- Visualización en lista: Muestra cada nombre.
+
+# 2. Realizar Sorteo
+
+- Selección aleatoria justa:
+ Solo elige entre nombres que no hayan estado sorteados.
+- Mensajes de resultado: 
+ Muestra el nombre ganador.
+ Si todos los nombres ya alcanzaron el máximo, muestra:
+ "🎉 Felicidades Fin del Juego 🎉".
+
+### 3. Reiniciar Juego
+- Limpia toda la información:
+  Vacía la lista de nombres.
+  Borra los campos de entrada.
+
+## 🛠️ Tecnologías Usadas
+- [HTML5](https://developer.mozilla.org/es/docs/Web/Guide/HTML/HTML5) → Estructura de la página.
+- [CSS3](https://developer.mozilla.org/es/docs/Web/CSS/CSS3) → Estilos y diseño responsivo.
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) → Lógica del sorteo y manipulación del DOM.
+
+# 🚀 Cómo Usarlo
+
+1. Escribe un nombre y haz clic en "➕ Añadir" para agregarlo a la lista.
+2. Presiona "🎲 Sortear" para elegir un ganador al azar.
+
+# 📌 Notas Importantes
+**Justicia en el sorteo**:
+
+ El sistema evita que un nombre se repita más veces de las permitidas. 
+ Solo sortea entre nombres que aún tienen oportunidades.
+
+ **Validaciones**:
+ 
+ No permite números.
+ No permite nombres vacíos.
+ No permite que se repitan los nombres.
+ 
+ **Reinicio automático**: 
+ Si todos los nombres alcanzan el máximo de repeticiones, se reinicia el juego y se restablecen configuraciones.
+
+# 🎨 Vista Previa
 
 ![Vista previa del sorteo](https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-1.png)
 
-Agregar participantes a una lista.
+# 🤝 Contribuir
+¡Claro que sí! Si deseas contribuir a este proyecto, puedes hacerlo mediante:
+- GitHub
+- Contactándome directamente en:
+- [LinkedIn](https://www.linkedin.com/in/eduardo-jordan/).
 
-Establecer un límite de repeticiones para evitar que un mismo nombre salga demasiadas veces.
-
-Realizar sorteos aleatorios respetando el límite configurado.
-
-Reiniciar el juego cuando todos los nombres hayan alcanzado el máximo de repeticiones.
-
-⚙️ Funcionalidades
-1. Configuración del Sorteo
-Máximo de repeticiones por nombre:
-
-El usuario define cuántas veces puede salir un mismo nombre en el sorteo.
-
-Si no se ingresa un número válido (mayor o igual a 1), el juego muestra una alerta.
-
-2. Agregar Nombres
-Validación de entrada:
-
-No permite nombres vacíos.
-![No permite nombres vacíos](https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-2.png)
-
-Cada nombre se guarda en una lista 
-
-Visualización en lista:
-
-Muestra cada nombre con su posición 
-
-Incluye un botón ❌ para eliminar nombres individualmente.
-
-3. Realizar Sorteo
-Selección aleatoria justa:
-
-Solo elige entre nombres que no hayan alcanzado el máximo de repeticiones.
-
-Mensajes de resultado:
-
-Muestra el nombre ganador
-
-Si todos los nombres ya alcanzaron el máximo, muestra:
-
-"🎉Felicidades Fin del Juego🎉 "
-y habilita el botón de reinicio.
-
-4. Reiniciar Juego
-Limpia toda la información:
-
-Vacía la lista de nombres.
-
-Restablece el contador de repeticiones.
-
-Borra los campos de entrada.
-
-Vuelve a desactivar el botón de reinicio hasta que se complete otro sorteo.
-
-🛠️ Tecnologías Usadas
-HTML5 → Estructura de la página.
-
-CSS3 → Estilos y diseño responsivo.
-
-JavaScript → Lógica del sorteo y manipulación del DOM.
-
-🚀 Cómo Usarlo
-Ingresa el número máximo de repeticiones permitidas (ejemplo: 3).
-
-Escribe un nombre y haz clic en "➕ Añadir" para agregarlo a la lista.
-
-Presiona "🎲 Sortear" para elegir un ganador al azar.
-
-Si quieres empezar de nuevo, haz clic en "🔄 Reiniciar".
-
-📌 Notas Importantes
-✔ Justicia en el sorteo:
-
-El sistema evita que un nombre se repita más veces de las permitidas.
-
-Solo sortea entre nombres que aún tienen oportunidades.
-
-❌ Validaciones:
-
-No permite numeros.
-
-No permite nombres vacíos.
-
-No permite que se repita los nombres.
-
-No permite valores inválidos en el máximo de repeticiones.
-
-🔄 Reinicio manual:
-
-Si todos los nombres alcanzan el máximo de repeticiones, debes reiniciar el juego para continuar.
-
-🎨 Vista Previa
-https://ejemplo.com/captura-sorteo.png (Imagen ilustrativa)
-
-✨ ¡Diviértete sorteando nombres de manera justa y personalizable! ✨
-
-📜 Licencia
+# 📜 Licencia
 
 Este proyecto es de código abierto bajo la licencia de Eduardo Jordan.
+Aprendiendo en Alura Latam.
+Lo puedes mejorar o configurar.
 
-Lo puedes mejorar o configurar
+# 🔗 Repositorio
 
-🔗 Repositorio: github.com/Eduardo-Jordan/Challenge-amigo-secreto
+[github.com/Eduardo-Jordan/Challenge-amigo-secreto](https://github.com/Eduardo-Jordan/Challenge-amigo-secreto)
 
-📢 ¿Dudas o sugerencias? ¡Siéntete libre de contribuir o reportar! 🚀
-
-https://www.linkedin.com/in/eduardo-jordan/
+✨ ¡Diviértete sorteando nombres de manera justa y personalizable! ✨
