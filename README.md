@@ -2,6 +2,8 @@
 
 ## Juego de Sorteo de Nombres
 
+(https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-1.png)
+
 🎯 **Descripción**
 
 Este es un juego interactivo que permite realizar sorteos de nombres de manera justa y configurable.
@@ -11,7 +13,7 @@ Los usuarios pueden:
 - Agregar participantes a una lista.
 - Realizar sorteos aleatorios respetando el límite configurado.
 - Reiniciar el juego cuando todos los nombres hayan pasado.
-- https://raw.githubusercontent.com/Eduardo-Jordan/Challenge-amigo-secreto/main/assest-readme/readmepng-1.png
+
 
 # ⚙️ Funcionalidades
 
