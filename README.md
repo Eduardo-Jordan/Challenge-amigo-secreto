@@ -49,7 +49,7 @@ Los usuarios pueden:
 ## 🛠️ Tecnologías Usadas
 - [HTML5](https://github.com/Eduardo-Jordan/Challenge-amigo-secreto/blob/main/index.html) → Estructura de la página.
 - [CSS3](https://github.com/Eduardo-Jordan/Challenge-amigo-secreto/blob/main/style.css) → Estilos y diseño responsivo.
-- [JavaScript](https://github.com/Eduardo-Jordan/Challenge-amigo-secreto/blob/main/app.js) → Lógica del sorteo y manipulación del DOM.
+- [JavaScript](https://github.com/Eduardo-Jordan/Challenge-amigo-secreto/blob/main/app.js) → Lógica del sorteo.
 
 # 🚀 Cómo Usarlo
 
