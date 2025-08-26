@@ -82,7 +82,7 @@ Simplemente accede al siguiente enlace desde cualquier navegador web:
 
 [🚀 Ver en GitHub](https://eduardo-jordan.github.io/Challenge-amigo-secreto/)  
 
-[🌐 Ver en Vercel](https://challenge-amigo-secreto-m7t02slta-eduardo-jordan-s-projects.vercel.app/)
+[🌐 Ver en Vercel](https://challenge-amigo-secreto-puce-five.vercel.app/)
 
 # 🔗 Enlaces al juego: 
 GitHub
@@ -91,7 +91,7 @@ https://eduardo-jordan.github.io/Challenge-amigo-secreto/
 
 Vercel
 
-https://challenge-amigo-secreto-m7t02slta-eduardo-jordan-s-projects.vercel.app/
+https://challenge-amigo-secreto-puce-five.vercel.app/
 
 ¡Y listo! Puedes empezar a agregar nombres y realizar sorteos de inmediato.
 
